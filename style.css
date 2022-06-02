@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: hsl(240, 78%, 98%);
 }
 
 /*/////////////// Layout ///////////////*/
@@ -20,12 +21,50 @@ body{
     align-items: center;
     width: 100%;
     position: relative;
+    min-width: 300px;
 }
 
 header{
-    padding-top: 3em;
+    padding-top: 4em;
     text-align: center;
 }
+
+
+section{
+    width: 85%;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    border-radius: .5em;
+    box-shadow: 0px 1px 70px 26px rgba(0,0,0,.125);
+}
+
+.line-break{
+    border: solid 1px rgba(26, 25, 25, 0.274);
+    width: 90%;
+}
+
+
+/*/////////////// Typeography ///////////////*/
+
+h2{
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+    color: hsl(233, 13%, 49%);
+}
+
+.pricing{
+    font-size: 4rem;
+    margin-bottom: .5em;
+}
+
+p{
+    padding: 1em;
+}
+
 
 
 /*/////////////// Toggle button ///////////////*/
@@ -36,12 +75,13 @@ header{
     justify-content: space-between;
     background-color: aqua;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .toggle-btn{
     width: 80px;
     height: 37px;
-    background: grey;
+    background: hsl(237, 63%, 64%);
     margin: 0 1em;
     border-radius: 2rem;
     transition: all 300ms ease-in-out;
@@ -64,5 +104,19 @@ header{
 margin-left: 47px;
 }
 
-/*/////////////// Typeography ///////////////*/
+/*/////////////// Learn More button ///////////////*/
 
+button{
+    width: 90%;
+    height: 3.5em;
+    border-radius: .5rem;
+    margin-top: 2em;
+    letter-spacing: 3px;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(90deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
+    color: white;
+    border: none;
+}
