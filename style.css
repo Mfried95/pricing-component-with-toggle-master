@@ -1,1 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*/////////////// Layout ///////////////*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+header{
+    padding-top: 3em;
+    text-align: center;
+}
+
+
+/*/////////////// Toggle button ///////////////*/
+
+.toggle-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    margin-top: 2em;
+}
+
+.toggle-btn{
+    width: 80px;
+    height: 37px;
+    background: grey;
+    margin: 0 1em;
+    border-radius: 2rem;
+}
+
+.inner-circle{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.toggle-btn.active{
+    background-color: hsl(237, 63%, 64%);
+}
+
+.toggle-btn.active > .inner-circle{
+margin-left: 47px;
+}
+
+/*/////////////// Typeography ///////////////*/
+
