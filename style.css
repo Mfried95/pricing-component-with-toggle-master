@@ -96,6 +96,9 @@ p{
     padding: .5em;
 }
 
+#basic-pricing, #master-pricing{
+    color: hsl(233, 13%, 49%);
+}
 
 /*/////////////// Toggle button ///////////////*/
 
